@@ -1,0 +1,206 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    background-color: rgb(214, 201, 201);
+}
+.title{
+    width:40%;
+    height:20%;
+    background-color: rgb(223, 212, 212);
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 1;
+    
+}
+h2{
+    font-size: 50px;
+}
+.div1{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+   background-image: url(../images/1.jpg);
+   background-size:cover;
+   background-position: center;
+    position: absolute;
+    top:20px;
+    animation-name: change-div1;
+    animation-duration:1s;
+    
+}
+
+
+@keyframes change-div1{
+    0%{
+        left:0;
+    }
+    50%{
+         width:200px;
+         height: 200px;
+        left:1000px;
+    }
+    100%{
+       left:0;
+    }
+}
+/* //////////////////////////////////////////// */
+.div3{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    background-position: center;
+     position: absolute;
+    top:220px;
+    animation-name: change-div3;
+    animation-duration:1s;
+    animation-delay:2s;
+   /* z-index: 2; */
+}
+
+@keyframes change-div3{
+    0%{
+        left:0;
+    }
+    50%{
+        width:200px;
+        height: 200px;
+       left:1000px;
+    }
+    100%{
+       left:0;
+
+    }
+
+}
+/* //////////////////////////////////////////// */
+
+.div5{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background-image: url(../images/5.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:420px;
+    animation-name: change-div5;
+    animation-duration:1s;
+    animation-delay:4s;
+    
+}
+@keyframes change-div5{
+    0%{
+        left:0;
+    }
+    50%{
+        width:200px;
+        height: 200px;
+       left:1000px;
+    }
+    100%{
+       left:0;
+
+    }
+
+
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+.div2{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-position:center;
+    position:absolute;
+    right:0;
+    top:120px;
+    animation-name: change-div2;
+    animation-duration:1s;
+    animation-delay:1s;
+}
+@keyframes change-div2{
+    0%{
+        right:0;
+    }
+    50%{
+        width:200px;
+        height: 200px;
+       right:1000px;
+    }
+    100%{
+        right:0;
+
+    }
+
+}
+/* //////////////////////////////////////////// */
+.div4{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    right:0;
+    top:320px;
+    animation-name: change-div4;
+    animation-duration:1s;
+    animation-delay:3s;
+    /* z-index: 2; */
+}
+@keyframes change-div4{
+    0%{
+        right:0;
+    }
+    50%{
+        width:200px;
+         height: 200px;
+        right:1000px;
+    }
+    100%{
+        right:0;
+
+    }
+
+}
+/* //////////////////////////////////////////// */
+.div6{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background-image: url(../images/6.jpg);
+    background-size: cover;
+    background-position:center;
+    position:absolute;
+    right:0;
+    top:520px;
+    animation-name: change-div6;
+    animation-duration:1s;
+    animation-delay:5s;
+}
+@keyframes change-div6{
+    0%{
+        right:0;
+    }
+    50%{
+        width:200px;
+         height: 200px;
+        right:1000px;
+    }
+    100%{
+        right:0;
+
+    }
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
